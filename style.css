@@ -1,11 +1,32 @@
-/* CSS files add styling rules to your content */
+table{
+  table-layout: auto;
+  width: 100%;
+  background-image: url("https://cdn.glitch.com/4dbfdcb4-3aae-4391-b319-762b6e8fa092%2Fleopardskin.jpg?v=1613406741490");}
 
-body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
-}
 
-h1 {
-  font-style: italic;
-  color: #373fff;
-}
+th[scope="col"] {
+    font-style: "Rock-Salt";
+    font-family: "Rock-Salt";
+    color: #fff;
+    border: 2px solid #800080;
+    padding: 17px;}
+
+
+td {
+    font-style: "Helvetica Neu";
+    font-size: 13px;
+    color: black;
+    padding: 13px;
+    text-align: center;}
+
+.One{
+ background-color: #ff33cc;}
+.Two{
+ background-color: #e495e4;}
+.Three{
+ font-style: "Helvetica Neu";
+  font-size: 15px;
+  color: White;
+  border: 2px solid #800080;
+  float: right;
+  display: flex;}
