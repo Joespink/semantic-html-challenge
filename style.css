@@ -1,22 +1,31 @@
-table{
-  table-layout: auto;
-  width: 100%;
-  background-image: url("https://cdn.glitch.com/4dbfdcb4-3aae-4391-b319-762b6e8fa092%2Fleopardskin.jpg?v=1613406741490");}
 
+table{
+  table-layout: fixed;
+  width: 100%;
+  background-image: url("assets/leopardskin.jpg");
+  border-collapse:collapse;}
+
+caption {
+  display: table-caption;
+  text-align: right;
+  caption-side: bottom;
+  font-family: "Rock Salt", cursive;
+  border: 25px solid white;
+}
 
 th[scope="col"] {
-    font-style: "Rock-Salt";
-    font-family: "Rock-Salt";
-    color: #fff;
-    border: 2px solid #800080;
+    font-family: "Rock Salt", cursive;
+    color: #FFF;
+    border: 3px solid #800080;
     padding: 17px;}
 
-
 td {
-    font-style: "Helvetica Neu";
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
     font-size: 13px;
     color: black;
     padding: 13px;
+    font-weight: bold;
     text-align: center;}
 
 .One{
@@ -24,9 +33,14 @@ td {
 .Two{
  background-color: #e495e4;}
 .Three{
- font-style: "Helvetica Neu";
+  font-family: "Rock Salt", cursive;
   font-size: 15px;
   color: White;
   border: 2px solid #800080;
-  float: right;
-  display: flex;}
+  text-align: right;}
+.Four{
+  font-family: "Rock Salt", cursive;
+  font-size: 15px;
+  color: White;
+  border: 3px solid #800080;
+  text-align: left;}
